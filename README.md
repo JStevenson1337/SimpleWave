@@ -10,7 +10,7 @@
 
 
 ## Build Instructions
-* g++ src/*.cpp ./inc/*.h -o WavySunSpot -lcurses
+* g++ src/*.cpp ./inc/*.h -o SimpleWave -lcurses
 
 ### or
 
