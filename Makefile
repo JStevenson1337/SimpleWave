@@ -4,8 +4,8 @@ LDFLAGS = -lncurses
 
 APPNAME = SimpleWave
 EXT = .cpp
-SRCDIR = src/
-OBJDIR = obj/
+SRCDIR = src
+OBJDIR = obj
 
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
 OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
